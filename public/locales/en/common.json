@@ -1,0 +1,38 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "work": "Work",
+        "contact": "Contact"
+    },
+    "preloader": {
+        "name": "Roman",
+        "lastname": "Leonchik"
+    },
+    "index": {
+        "title": "Hai, i am Roma",
+        "text": "and I'm from",
+        "city": "Minsk",
+        "aboutTitle": "I do a bit of everything",
+        "aboutText": "I work in the field of web development and have been fond of it for over 3 years. I enjoy doing this and I am constantly developing in this direction and trying to learn more about this area. In the skill section you can see what skills I managed to master and what I am studying",
+        "workTitle": "Some of my works"
+    },
+    "about": {
+        "title": "About",
+        "titleOrange": "Me"
+    },
+    "skills": {
+        "title": "skills",
+        "titleOrange": "My"
+    },
+    "work": {
+        "title": "work",
+        "titleOrange": "My"
+    },
+    "404": {
+        "textContent": "Unfortunately, such a page does not exist. The address is probably incorrect.",
+        "textHome": "Try starting with the",
+        "textLink": "home page"
+    }
+}
