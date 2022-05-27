@@ -15,7 +15,7 @@ export const CustomLink: React.FC<IProps> = ({
 }) => {
     return (
         <Link href={href} passHref {...rest}>
-            <StyledAnchor target={target} className={className}>
+            <StyledAnchor target={target} className={className} data-testid="custom-link">
                 {children}
             </StyledAnchor>
         </Link>

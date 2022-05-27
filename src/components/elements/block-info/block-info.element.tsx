@@ -6,7 +6,7 @@ import {
     StyledBlockInfoText,
 } from "./block-info.styled";
 
-interface IArray {
+export interface IArray {
     id: string;
     date: string;
     title: string;
