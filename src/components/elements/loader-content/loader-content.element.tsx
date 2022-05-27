@@ -10,7 +10,7 @@ interface IProps {
 
 export const LoaderContent: React.FC<IProps> = ({ isVisivility }) => {
     return (
-        <StyledLoaderWrapp isVisivility={isVisivility}>
+        <StyledLoaderWrapp isVisivility={isVisivility} data-testid="loader">
             <StyledLoaderBlock />
         </StyledLoaderWrapp>
     )

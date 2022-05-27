@@ -50,7 +50,10 @@
             "tsx"
         ],
         "verbose": true,
-        "rootDir": "src",
+        "rootDir": "./",
+        "modulePaths": [
+            "<rootDir>"
+        ],
         "testRegex": ".*\\.spec\\.tsx?$",
         "transform": {
             "^.+\\.(js|jsx|ts|tsx)$": [
@@ -68,6 +71,10 @@
         ],
         "collectCoverageFrom": [
             "**/*.(t|j)sx?$"
-        ]
+        ],
+        "coverageDirectory": "../coverage",
+        "moduleNameMapper": {
+            "^@/(.*)$": "<rootDir>/src/$1"
+        }
     }
 }

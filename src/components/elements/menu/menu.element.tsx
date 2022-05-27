@@ -23,8 +23,8 @@ interface IProps {
 
 export const Menu: React.FC<IProps> = ({ data, onClick, lang, path, isOpenMenu }) => {
     return (
-        <StyledMenu>
-            <StyledButtonMobile onClick={onClick} openMenu={isOpenMenu}/>
+        <StyledMenu data-testid="menu">
+            <StyledButtonMobile onClick={onClick} openMenu={isOpenMenu} data-testid="button-mob"/>
             <StyledMenuList openMenu={isOpenMenu}>
                 {
                     data.map((index) => (
