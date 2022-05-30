@@ -15,7 +15,7 @@ export const PreloaderWebsite: React.FC<IProps> = ({ loader }) => {
 
     return (
         <StyledPreloaderWrapp loader={loader}>
-            <StyledPreloaderContent loader={loader}>
+            <StyledPreloaderContent loader={loader} data-testid="preloader">
                 {t("preloader.name")}
                 <StyledPreloaderLine />
                 {t("preloader.lastname")}
